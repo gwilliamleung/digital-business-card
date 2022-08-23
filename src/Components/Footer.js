@@ -1,5 +1,4 @@
 export default function Footer() {
   return (
-    <div>Footer</div>
-  )
+    <FontAwesomeIcon icon="fa-brands fa-square-twitter" />  )
 }

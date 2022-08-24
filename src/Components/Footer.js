@@ -5,12 +5,20 @@ import { faTwitterSquare, faFacebookSquare, faInstagramSquare, faGithubSquare} f
 export default function Footer() {
   return (
     <footer>
-      <FontAwesomeIcon icon={faTwitterSquare} />
-      <FontAwesomeIcon icon={faFacebookSquare} />
-      <FontAwesomeIcon icon={faInstagramSquare} />
-      <FontAwesomeIcon icon={faGithubSquare} />
-
-
+      <div className="social-media-icons">
+        <a href="twitter.com">
+          <FontAwesomeIcon icon={faTwitterSquare}/>
+        </a>
+        <a href="facebook.com">
+          <FontAwesomeIcon icon={faFacebookSquare} />
+        </a>
+        <a href="instagram.com">
+          <FontAwesomeIcon icon={faInstagramSquare} />
+        </a>
+        <a href="github.com">
+          <FontAwesomeIcon icon={faGithubSquare} />
+        </a>
+      </div>
     </footer>
   )
 }

@@ -65,5 +65,10 @@ main p{
 }
 
 footer {
+    display:flex;
+    justify-content: space-around;
     background: #161619;
+    margin:0;
+    padding:0;
+    color:#918E9B;
 }

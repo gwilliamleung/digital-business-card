@@ -1,4 +1,16 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faTwitterSquare, faFacebookSquare, faInstagramSquare, faGithubSquare} from '@fortawesome/free-brands-svg-icons'
+
+
 export default function Footer() {
   return (
-    <FontAwesomeIcon icon="fa-brands fa-square-twitter" />  )
+    <footer>
+      <FontAwesomeIcon icon={faTwitterSquare} />
+      <FontAwesomeIcon icon={faFacebookSquare} />
+      <FontAwesomeIcon icon={faInstagramSquare} />
+      <FontAwesomeIcon icon={faGithubSquare} />
+
+
+    </footer>
+  )
 }

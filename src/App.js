@@ -6,10 +6,12 @@ import './styles.css'
 
 function App() {
   return (
-    <div className="container">
-      <Header />
-      <Main />
-      <Footer />
+    <div className="card">
+      <div className="container">
+        <Header />
+        <Main />
+        </div>
+        <Footer />
     </div>
   );
 }

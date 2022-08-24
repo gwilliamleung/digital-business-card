@@ -5,18 +5,17 @@ html{
     font-family: Inter, sans-serif;
 }
 
-.container{
+.card{
     width:70%;
-    max-width:400px;
+    max-width: 400px;
     background:#1A1B21;
     margin: 100px auto;
-    border: black 1px solid;
-    padding: 20px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 0px 0px 10px 10px;
 }
 
 header > img {
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
 }
 
 header {
@@ -44,6 +43,21 @@ header h3{
     line-height: 15px;
 }
 
+.linkedin-button{
+    width:250px;
+    margin: 0 auto;
+    background:#5093E2;
+    padding: 7px 11px 7px 9px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.link{
+    text-decoration: none;
+    color:#FFFFFF;
+    margin-left:5px;
+}
+
 main {
     width:75%;
     margin: 0 auto;
@@ -52,6 +66,7 @@ main {
 main h2 {
     color: #F5F5F5;
     margin-bottom: 0px;
+    margin-top:30px;
     font-weight: 700;
     font-size: 22px;
 }
@@ -62,13 +77,19 @@ main p{
     font-weight: 400;
     font-size: 12px;
     line-height: 17px;
+    
 }
 
-footer {
+.social-media-icons {
     display:flex;
-    justify-content: space-around;
+    height:60px;
+    margin-top:40px;
+    justify-content: space-evenly;
+    align-items: center;
     background: #161619;
-    margin:0;
-    padding:0;
+    border-radius: 0px 0px 10px 10px;
+}
+
+footer a{
     color:#918E9B;
 }
